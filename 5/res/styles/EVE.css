@@ -1,0 +1,164 @@
+/*  */
+a img {
+  border-width: 0;
+}
+
+strong a{
+	color:white;
+}
+
+a:focus,
+li:focus,
+input:focus,
+textarea:focus{
+	outline:none;
+}
+
+select,
+option,
+textarea,
+input[type="text"]{
+	color:#c8c8c8;
+	background:#212121;
+	border:solid 1px;
+	border-color:#8c8c8c #8c8c8c #696969 #a2a2a2;
+	box-shadow: 1px 1px 3px 1px #000 inset;
+}
+
+textarea.evelink,
+input.evelink{
+	color:#c8c8c8;
+	background:#333;
+	border:solid 1px;
+	border-color:#ffa600;
+	box-shadow: 1px 2px 3px 1px #000 inset;
+}
+
+button,
+input[type="submit"]{
+	color:#cdcdcd;
+	background:black;
+	border:solid 1px;
+	border-color:#646464 #464646 #464646 #646464;
+}
+button:focus{
+	border:solid 1px #b7b7b7;
+}
+button:hover,
+input[type="submit"]:hover{
+	-webkit-box-shadow: 0 0 3px #aaa;
+	border:solid 1px #b7b7b7;
+	box-shadow: 0 0 3px #aaa;
+}
+
+a{
+	margin-top:-1px;
+	color:#ffa600;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#ffff00;
+	text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* selection */
+::-moz-selection{ /*针对Firefox*/
+	background:#aaa;
+	color:#fff;
+}
+::selection {
+	background:#aaa;
+	color:#fff;
+}
+input[type="text"]::-moz-selection { /*code是标签选择器，可以换成p或span等*/
+	background: #aaa;
+}
+input[type="text"]::selection {
+	background: #aaa;
+}
+
+/* scroll bar */
+/*
+::-webkit-scrollbar{width:13px;height:13px;}
+::-webkit-scrollbar-button:vertical{background-color:red;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{display:block;}
+::-webkit-scrollbar-button:vertical:start:increment,::-webkit-scrollbar-button:vertical:end:decrement{display:none;}
+::-webkit-scrollbar-button:vertical:increment{background-color:#000;}
+::-webkit-scrollbar-button:vertical:decrement{background-color:#000;}
+::-webkit-scrollbar-track:vertical{background-color:black;}
+::-webkit-scrollbar-track-piece{background:white;-webkit-box-shadow:inset 2px 2px 6px rgba(0,0,0,.5);}
+::-webkit-scrollbar-thumb:vertical{height:50px;background-color:#262626;-webkit-box-shadow:2px 2px 6px rgba(0,0,0,.5),inset -2px 2px 2px rgba(204,204,204,0.1),inset 2px -2px 2px rgba(0,0,0,0.2);}
+::-webkit-scrollbar-corner:vertical{background-color:black;}
+::-webkit-scrollbar-resizer:vertical{background-color:gray;}
+*/
+::-webkit-scrollbar
+{
+    width:6px;
+    height:6px;
+}
+
+::-webkit-scrollbar-button:vertical,
+::-webkit-scrollbar-button:horizontal
+{
+    background-color:#242424;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment
+{
+    display:none;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement,
+::-webkit-scrollbar-button:horizontal:start:increment,
+::-webkit-scrollbar-button:horizontal:end:decrement
+{
+    display:none;
+}
+
+::-webkit-scrollbar-button:vertical:increment,
+::-webkit-scrollbar-button:horizontal:increment,
+::-webkit-scrollbar-button:vertical:decrement,
+::-webkit-scrollbar-button:horizontal:decrement
+{
+    background-color:#242424;
+}
+
+::-webkit-scrollbar-track:vertical,
+::-webkit-scrollbar-track:horizontal
+{
+    background-color:#242424;
+}
+
+::-webkit-scrollbar-track-piece
+{
+    background:#242424;
+}
+
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal
+{
+    background-color:#7a7a7a;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover
+{
+    background-color:#909090;
+}
+
+::-webkit-scrollbar-corner:vertical,
+::-webkit-scrollbar-corner:horizontal
+{
+    background-color:#242424;
+}
+
+::-webkit-scrollbar-resizer:vertical,
+::-webkit-scrollbar-resizer:horizontal
+{
+    background-color:#242424;
+}

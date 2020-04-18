@@ -1,0 +1,149 @@
+
+/*@import url('jquery-ui.css'); 
+@import url('EVE.css');*/
+
+/* for IE */
+a img {
+  border-width: 0;
+}
+
+/*
+
+span img{
+	margin-top:-3px;
+	margin-left:-1px;
+}
+
+#header{
+	top:0px;
+	left:0px;
+	right:0px;
+	height:110px;
+	background: url(../Images/Ver2.0.png) no-repeat;
+}
+
+#logo{
+	display:block;
+	position: absolute;
+    margin-top:0px;
+	margin-left:200px;
+	width:290px;
+	height:100px;
+}
+
+#footer{
+    font-size:.75em;
+    border-top: solid #494a4a 1px;
+    color:#555;
+    padding:10px;
+    left:0px;
+	right:0px;
+    background: url(../Images/Opacity50.png);
+}
+
+#trustbtn{
+	display:block;
+	position: absolute;
+	left:470px;
+	top:70px;
+	width:auto;
+	height:24px;
+}
+*/
+/* ------------------- 
+#tabs{
+	top:0px;
+	left:0px;
+	right:0px;
+}
+#tabs ul{
+    padding-left:280px;
+}
+
+#panels{
+	left:0px;
+	right:0px;
+	border-top:solid 2px #09090a;
+	background: url(../Images/Opacity50.png);
+}
+#panels div{
+	display:block;
+}
+
+#kwtip{
+	cursor: pointer;
+}
+
+#message,
+#results,
+#activities
+{
+	width:250px;
+}
+
+#results>img{
+	margin-top:-1px;
+}
+
+td img{
+    margin-top:-2px;  
+}
+*/
+
+img.icon{
+    width: 22px;
+    height: 22px;
+}
+img.ico{
+    width: 18px;
+    height: 18px;
+}
+strong.title{
+    font-size: 1.1em;
+}
+
+td.plain,
+span.plain{
+    color:#aaaaaa;
+}
+p.desc,
+div.desc{
+	max-height:120px;
+	overflow-y:scroll;
+}
+
+.c0{color:#999;}
+.class1{color:#009d81;}
+.class2{color:#028da6;}
+.class3{color:#cac09b;}
+.class4{color:#dcab00;}
+.class5{color: #c96060;}
+.class6{color:#da0000;}
+.class7{color:#41e500;}
+.class8{color:#e77300;}
+.class9{color:#dc1a10;}
+.class12{color:#292;}
+.class13{color: #ac00ac;}
+.class14{color:#ee00ee;}
+.class15{color:#ee00ee;}
+.class16{color:#ee00ee;}
+.class17{color:#ee00ee;}
+.class18{color:#ee00ee;}
+
+.planet11{color:#0c7f00;}
+.planet12{color:#c9fdff;}
+.planet13{color: #dfdeb6;}
+.planet2014{color: #008caa;}
+.planet2015{color: #f3381C;}
+.planet2016{color:#c4b365;}
+.planet2017{color: #5967ff;}
+.planet2063{color: #8d55ff;}
+.planet30889{color:#858585;}
+
+.whRandom{color:#c4b355;}
+.whStatic{color:#629df6;font-weight: bold;}
+.whRoam{color:#d8c91d;}
+.whTrigger{color:#a3381b;}
+
+
+
